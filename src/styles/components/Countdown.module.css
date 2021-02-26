@@ -66,6 +66,10 @@
   background-color: var(--white);
   color: var(--text);
 }
+.countdownButtonActive > p {
+  margin-left: 1rem;
+  font-size: 0.9rem;
+}
 
 .countdownButtonActive:not(:disabled):hover{
   background-color: var(--red);
