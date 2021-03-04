@@ -20,10 +20,7 @@ export function ExperienceBar(){
       </div>
       <span>{experienceToNextLevel} xp</span>
 
-      <div className="toggle">
-        <input type="checkbox" id="switch" name="theme" />
-        <label htmlFor="switch" id="name">Toogle</label>
-      </div>
+      
     </header>
   )
 }
