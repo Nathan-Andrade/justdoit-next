@@ -11,6 +11,7 @@ import { CountdownProvider } from '../contexts/CountdownContext';
 import { ChallengesProvider } from '../contexts/ChallengesContext';
 
 import light from '../styles/Themes/light';
+import dark from '../styles/Themes/dark';
 
 import { ThemeProvider } from 'styled-components';
 import styles from '../styles/pages/Home.module.css';
@@ -28,7 +29,8 @@ export default function Home(props: HomeProps) {
         level={props.level} 
         currentExperience={props.currentExperience} 
         challengesCompleted={props.challengesCompleted}
-      >
+      > 
+      
         <div className={styles.container}>
           <Head>
             <title>Inicio | JustDo.it</title>
